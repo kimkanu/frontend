@@ -1,0 +1,32 @@
+{
+  "name": "@kimkanu/frontend",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "recoil": "^0.6.1"
+  },
+  "devDependencies": {
+    "@kimkanu/frontend": "./src",
+    "@types/node": "^17.0.8",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "^4.5.4"
+  },
+  "peerDependencies": {
+    "react": ">=16.13.1"
+  },
+  "peerDependenciesMeta": {
+    "react-dom": {
+      "optional": true
+    },
+    "react-native": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.json"
+  },
+  "repository": "git://github.com/kimkanu/frontend.git"
+}
